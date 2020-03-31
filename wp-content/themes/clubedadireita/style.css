@@ -98,6 +98,14 @@ span.wpcf7-form-control-wrap.contato-nome, span.wpcf7-form-control-wrap.contato-
 	margin-top: 10px;
 }
 
+.f14 {
+	font-size: 14px !important;
+}
+
+.mg50 {
+	margin-top: 50px !important;
+}
+
 .white-text {
 	color: #ffffff !important;
 }
@@ -196,6 +204,16 @@ span.wpcf7-form-control-wrap.contato-nome, span.wpcf7-form-control-wrap.contato-
 	width: 100%;
 	z-index: 99;
 }
+
+.navgition.navgition-blue {
+	background-color: rgba(41, 128, 185, 1);;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+}
+
 .navgition.sticky {
 	position: fixed;
 	background-color: rgba(41, 128, 185, 1);

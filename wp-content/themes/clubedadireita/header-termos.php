@@ -59,7 +59,7 @@
   <body>
   <!--====== HEADER PART START ======-->
   <header class="header-area">
-    <div class="navgition navgition-transparent">
+    <div class="navgition navgition-blue">
       <div class="container">
         <div class="row">
           <div class="col-lg-10">
@@ -71,16 +71,16 @@
               <div class="collapse navbar-collapse sub-menu-bar" id="navbarOne">
                 <ul class="navbar-nav m-auto">
                   <li class="nav-item active">
-                    <a class="page-scroll" href="/">Início</a>
+                    <a class="page-scroll" href="<?php echo site_url(); ?>/">Início</a>
                   </li>
                   <li class="nav-item">
-                    <a class="page-scroll" href="#como-funciona">Como Funciona</a>
+                    <a class="page-scroll" href="<?php echo site_url(); ?>#como-funciona">Como Funciona</a>
                   </li>
                   <li class="nav-item">
-                    <a class="page-scroll" href="#valores">Valores</a>
+                    <a class="page-scroll" href="<?php echo site_url(); ?>#valores">Valores</a>
                   </li>
                   <li class="nav-item">
-                    <a class="page-scroll" href="#contato">Contato</a>
+                    <a class="page-scroll" href="<?php echo site_url(); ?>#contato">Contato</a>
                   </li>
                   <li class="nav-item">
                     <a href="<?php echo site_url(); ?>/termos-de-servico">Termos de Serviço</a>
@@ -93,22 +93,5 @@
         </div> <!-- row -->
       </div> <!-- container -->
     </div> <!-- navgition -->
-
-    <div id="inicio" class="header-hero bg_cover" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/header-bg.jpg);background-position: left;background-repeat: no-repeat;">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-8 col-lg-10">
-            <div class="header-content text-center">
-              <h3 class="header-title">Notícias de Direita, Isentas de Fake-News</h3>
-              <p class="text">Receba diretamente no seu WhatsApp as melhores notícias sobre o Governo Bolsonaro, Direita e o Avanço do Brasil.</p>
-              <ul class="header-btn">
-                <li><a class="main-btn btn-one" href="#como-funciona">Como Funciona</a></li>
-                <li><a class="main-btn btn-two" href="#assinar">QUERO RECEBER <i class="lni-play"></i></a></li>
-              </ul>
-            </div> <!-- header content -->
-          </div>
-        </div> <!-- row -->
-      </div> <!-- container -->
-    </div> <!-- header content -->
   </header>
   <!--====== HEADER PART ENDS ======-->  

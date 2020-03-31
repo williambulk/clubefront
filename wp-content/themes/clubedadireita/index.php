@@ -48,7 +48,7 @@ get_header(); ?>
                                 </div>
                                 <div class="services-content media-body">
                                     <h4 class="services-title">Anti Fake-News</h4>
-                                    <p class="black-text f13">Assim como você, nós também odiamos as fake-news (notícias falsas) que são divulgadas pelos grandes veículos de comunicação. Nós apenas enviamos <strong>notícias verdadeiras, sem partidarismo ou opiniões ideológicas.</strong></p>
+                                    <p class="black-text f13">Assim como você, nós também odiamos as fake-news (notícias falsas) que são divulgadas pelos grandes veículos de comunicação. Nós apenas enviamos <strong>notícias verdadeiras, sem partidarismo ou mentiras.</strong></p>
                                 </div>
                             </div> <!-- services content -->
                         </div>
@@ -97,6 +97,9 @@ get_header(); ?>
                                 <li><i class="lni-check-mark-circle"></i> Somos Anti Fake-News</li>
                                 <li><i class="lni-check-mark-circle"></i> Apenas enviamos notícias de Direita</li>
                             </ul>
+                        </div>
+                        <div class="pricing-list">
+                            <p class="f14">Ao clicar em "Assinar" você concorda com os <a href="https://clubedadireita.com.br/termos-de-servico" target="blank">termos de serviço</a>.</p>
                         </div>
                         <div class="pricing-btn text-center">
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
