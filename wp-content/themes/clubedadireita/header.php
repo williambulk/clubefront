@@ -64,7 +64,7 @@
         <div class="row">
           <div class="col-lg-10">
             <nav class="navbar navbar-expand-lg">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="<?php echo site_url(); ?>">
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/logo-branca.png" width="200" class="image-center" />
               </a>
 

@@ -5,6 +5,12 @@
 		margin: 30px 0;
 	}
 
+	@media (max-width: 768px) {
+		h4.title.text-center {
+			margin-top: 30px !important;
+		}
+	}
+
 	p {
 		font-size: 1em;
 	    font-weight: 400;
